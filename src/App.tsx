@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Spline from '@splinetool/react-spline';
+
+import React from 'react'
+// import { useEffect } from 'react'
+import { Footer } from './components/Footer/Footer'
+import { Header } from './components/Header/Header'
+//import { Main } from './components/Main/Main'
+import { GlobalStyle } from './styles/global'
+import 'react-toastify/dist/ReactToastify.css'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <GlobalStyle></GlobalStyle>
+      <Header></Header>
+      <Spline scene="https://prod.spline.design/pQ-gTKmbS7R2heXz/scene.splinecode" />
+      <Footer></Footer>
+    </>
+  )
 }
 
-export default App;
+export default App
