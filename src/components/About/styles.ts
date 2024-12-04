@@ -28,7 +28,7 @@ export const Container = styled.section`
     display: inline-block;
     margin-bottom: 2rem;
     // border-bottom: 0.2rem solid var(--blue);
-    font-size :5rem;
+    font-size :4rem;
     margin-top: 0rem;
     color: var(--black);
   }

@@ -16,6 +16,10 @@ export default function App() {
       <Header></Header>
       <About></About>
       <Wrapper>
+        <Content>
+          <h1>Professional Experiences :
+          </h1>
+        </Content>
         <Spline scene="https://prod.spline.design/pQ-gTKmbS7R2heXz/scene.splinecode" />
       </Wrapper>
       
@@ -29,4 +33,18 @@ const Wrapper = styled.section`
       font-size: 16x;
       color: blacklist;
       position: relative;
+      top: 80px;
+      .spline{
+      position: absolute;
+      margin: 0
+      }
+`
+const Content = styled.div`
+  position: relative;
+  top: -30px;
+  font-size :3rem;
+  display: flex;
+  color: black;
+  flex-direcion: columns;
+  gap: 80px;
 `
