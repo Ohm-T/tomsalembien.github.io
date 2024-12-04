@@ -76,7 +76,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
+    background-color: #ddf3f1;
     color: #FFFF;
   }
 
